@@ -38,6 +38,12 @@ let employers = [
     positionsHeld: 'Floor Supervisor',
     description: 'I started working at McDonalds to save up for my wedding, quickly moving from a crew member to a floor supervisor. I have worked every position from taking orders on the counter to assembling the food. Also, as an opening floor supervisor I have had to keep safe and make sure all of the drawers are properly counted.'
 },
+{
+  name: 'Bequet Confections',
+  employmentPeriod: 'May 2019 - Present',
+  positionsHeld: 'Associate Trainer',
+  description: 'Not long after starting at Bequet, I learned most tasks for the business. I work everything from the customer point of sale to tasks in the cooking room. I was moved into a trainer position very quickly for my ability to articulate and understand the important aspects of our job.'
+},
 ]
 
 export default employers;
