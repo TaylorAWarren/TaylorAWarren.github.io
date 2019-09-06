@@ -7,9 +7,9 @@ import Col from 'react-bootstrap/Col'
 export default class Resume extends Component {
   render() {
     return (
-      <div>
+      <div style={{ width: '98%', margin: 'auto' }}>
         <Row noGutters={true}>
-          <Col sm={5}>
+          <Col sm={3}>
             <ContactInfo />
           </Col>
           <Col>

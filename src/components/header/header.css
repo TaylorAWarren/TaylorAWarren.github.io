@@ -1,3 +1,22 @@
 .navigation {
   padding: 0px !important;
 }
+
+.headerNavBar {
+  padding-left: 5%;
+}
+
+.nav-item{
+  padding-right: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: rgba(255, 190, 140, 0.372);
+}
+
+.headerNavBar .nav-link{
+  color: rgb(116, 72, 41) !important;
+}
+
+.headerNavBar .nav-link:hover{
+  color: rgb(145, 90, 51) !important;
+}

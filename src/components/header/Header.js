@@ -14,17 +14,21 @@ class Header extends Component {
   render() {
     return (
       <Container fluid="true" className="navigation">
-        <Navbar bg="dark" expand="sm" variant="dark">
-          <Navbar.Brand> Taylor Warren's Resume </Navbar.Brand>
+        <Navbar className='headerNavBar' style={{ backgroundColor: '#15B097' }} expand="sm" variant="dark">
+          {/* <Navbar.Brand> Taylor Warren </Navbar.Brand> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto" onSelect={selectedKey => this.props.history.push(selectedKey)}>
               <RedirectButton url='' name='Home' />
               <RedirectButton url='resume' name='Resume' />
+              <RedirectButton url='about' name='About' />
             </Nav>
           </Navbar.Collapse>
+          <Navbar.Text style={{ color: 'rgba(255, 190, 140, 0.6)', fontFamily: "'Raleway', sans-serif", fontWeight: '400' }}>
+            Webpage by Taylor Warren
+          </Navbar.Text>
         </Navbar>
-      </Container>
+      </Container >
     )
   }
 }
